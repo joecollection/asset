@@ -94,5 +94,37 @@
     "summary": "249-key freehold Beachfront Resort in Wong Amat Beach Pattaya number one location. Mixed-use and branded residence conversion potential identified in feasibility study.",
     "url": "https://joecollection.github.io/gardencliff-pattaya/",
     "map": "https://maps.app.goo.gl/MdMqw23yBtd543826"
+  },
+  {
+    "id": "land-kamala-phuket-3260rai",
+    "name": "Land 3-2-60 Rai Kamala Phuket",
+    "type": "Resort",
+    "location": "Kamala Phuket",
+    "tenure": "Freehold",
+    "price": 80000000,
+    "priceLabel": "THB 80,000,000",
+    "keys": 249,
+    "land": "3-2-60 Rai",
+    "zoning": "Residential + Hospitality",
+    "image": "images/land-kamala-3260-rai",
+    "summary": "249-key freehold Beachfront Resort in Wong Amat Beach Pattaya number one location. Mixed-use and branded residence conversion potential identified in feasibility study.",
+    "url": "https://joecollection.github.io/land-kamala-patong-3-rai/",
+    "map": "https://maps.app.goo.gl/d7euxJXXY6ZPHQZa8"
+  },
+  {
+    "id": "gardencliff-pattaya",
+    "name": "Garden Cliff Resort & Spa Pattaya",
+    "type": "Resort",
+    "location": "Pattaya",
+    "tenure": "Freehold",
+    "price": 1700000000,
+    "priceLabel": "THB 1,700,000,000",
+    "keys": 249,
+    "land": "11-1-57 Rai",
+    "gfa": "22,000 sqm",
+    "image": "https://ak-d.tripcdn.com/images/1mc6t12000h908mce8FAD_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
+    "summary": "249-key freehold Beachfront Resort in Wong Amat Beach Pattaya number one location. Mixed-use and branded residence conversion potential identified in feasibility study.",
+    "url": "https://joecollection.github.io/gardencliff-pattaya/",
+    "map": "https://maps.app.goo.gl/MdMqw23yBtd543826"
   }
 ]
