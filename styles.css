@@ -249,8 +249,8 @@ button{font-family:inherit;}
 .card-meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);padding:8px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:4px 0;}
 .card-price{font-size:18px;font-weight:700;color:var(--primary);font-family:'IBM Plex Serif',serif;}
 .card-price small{font-size:11px;color:var(--muted);font-weight:400;display:block;font-family:'IBM Plex Sans',sans-serif;}
-.card-actions{display:flex;gap:8px;margin-top:10px;}
-.card-actions .btn{flex:1;padding:11px 10px;font-size:11px;}
+.card-actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+.card-actions .btn:not(.btn-icon){flex:1 1 100px;padding:11px 10px;font-size:11px;}
 .btn-icon{
   flex:0 0 auto !important;width:42px;padding:11px !important;
   background:var(--bg-alt);color:var(--primary);border:1px solid var(--line);border-radius:50%;
