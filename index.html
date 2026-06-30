@@ -1,34 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="th">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <title>JOE COLLECTION | Premier Real Estate Advisory — Bangkok</title>
-<meta name="description" content="JOE COLLECTION — Premier Real Estate Advisory. Hotel & Hospitality Asset Transactions across Southeast Asia. Curated listings for institutional investors and UHNWIs.">
+<meta name="description" content="JOE COLLECTION — Premier Real Estate Advisory. Hotel & Hospitality Asset Transactions across Southeast Asia.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- ===== HEADER ===== -->
+<!-- ===== HEADER (CBRE-style: white bar, wordmark, icon row) ===== -->
 <header class="site-header" id="siteHeader">
-  <div class="header-top">
-    <div class="header-row">
-      <a href="#home" class="brand">
-        <span class="brand-mark">JC</span>
-        <span class="brand-text">
-          <span class="brand-name">JOE COLLECTION</span>
-          <span class="brand-sub">Premier Real Estate Advisory</span>
-        </span>
+  <div class="header-row">
+    <a href="#home" class="brand">
+      <span class="brand-mark">JC</span>
+      <span class="brand-text">
+        <span class="brand-name">JOE COLLECTION</span>
+        <span class="brand-sub">Premier Real Estate Advisory</span>
+      </span>
+    </a>
+    <div class="header-icons">
+      <button class="icon-btn" id="searchToggle" aria-label="Search">
+        <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
+      <a href="#contact" class="icon-btn" aria-label="Contact advisor">
+        <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" fill="none" stroke="currentColor" stroke-width="2"/></svg>
       </a>
       <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
-
+  <div class="inline-search" id="inlineSearch" hidden>
+    <input type="text" id="searchInput" placeholder="Search by name, location...">
+  </div>
   <nav class="main-nav" id="mainNav">
     <a href="#listings" class="nav-link">Properties</a>
     <a href="#about" class="nav-link">Advisory</a>
@@ -56,6 +65,16 @@
   </div>
 </section>
 
+<!-- ===== PROPERTY SPOTLIGHT — CBRE-style swipeable carousel ===== -->
+<section class="spotlight">
+  <div class="spotlight-inner">
+    <h2>Property Spotlight</h2>
+    <p class="section-desc">Swipe to explore featured hospitality assets currently in the portfolio.</p>
+    <div class="carousel" id="spotlightCarousel"></div>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </div>
+</section>
+
 <!-- ===== FILTER BAR ===== -->
 <section class="filter-bar" id="listings">
   <div class="filter-inner">
@@ -64,7 +83,6 @@
       <span class="filter-count" id="resultCount">0 results</span>
     </div>
     <div class="filter-controls">
-      <input type="text" id="searchInput" class="filter-input" placeholder="Search by name, location...">
       <select id="typeFilter" class="filter-select">
         <option value="">All Types</option>
         <option value="Resort">Resort</option>
@@ -93,9 +111,7 @@
 
 <!-- ===== LISTINGS GRID ===== -->
 <main class="listings-section">
-  <div class="listings-grid" id="listingsGrid">
-    <!-- cards injected by js/script.js -->
-  </div>
+  <div class="listings-grid" id="listingsGrid"></div>
   <p class="empty-state" id="emptyState" hidden>No properties match your filters at this time.</p>
 </main>
 
@@ -142,7 +158,7 @@
         <label class="full-width">Summary<textarea name="summary" rows="3" placeholder="Brief investment highlight..."></textarea></label>
       </div>
       <button type="submit" class="btn btn-primary btn-block">Add Property to Portfolio</button>
-      <p class="form-note">Note: listings added here are stored locally in your browser for preview purposes. To publish permanently, add the entry to <code>data/properties.json</code> in the GitHub repository.</p>
+      <p class="form-note">Note: listings added here are stored locally in your browser for preview purposes. To publish permanently, add the entry to <code>properties.json</code> in the GitHub repository.</p>
     </form>
   </div>
 </section>
@@ -200,6 +216,6 @@
   </div>
 </div>
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
