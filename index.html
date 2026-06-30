@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>JOE COLLECTION | Premier Real Estate Advisory — Bangkok</title>
+<meta name="description" content="JOE COLLECTION — Premier Real Estate Advisory. Hotel & Hospitality Asset Transactions across Southeast Asia. Curated listings for institutional investors and UHNWIs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="header-top">
+    <div class="header-row">
+      <a href="#home" class="brand">
+        <span class="brand-mark">JC</span>
+        <span class="brand-text">
+          <span class="brand-name">JOE COLLECTION</span>
+          <span class="brand-sub">Premier Real Estate Advisory</span>
+        </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="main-nav" id="mainNav">
+    <a href="#listings" class="nav-link">Properties</a>
+    <a href="#about" class="nav-link">Advisory</a>
+    <a href="#add-listing" class="nav-link nav-cta">+ List a Property</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Hotel &amp; Hospitality Asset Transactions · Southeast Asia</p>
+    <h1 class="hero-title">Institutional-Grade Real Estate, <span>Curated for Discerning Capital</span></h1>
+    <p class="hero-desc">Freehold resorts, branded residences and trophy commercial assets across Phuket, Koh Samui, Pattaya and Bangkok — presented exclusively for institutional investors and ultra-high-net-worth principals.</p>
+    <div class="hero-actions">
+      <a href="#listings" class="btn btn-primary">View Listings</a>
+      <a href="#contact" class="btn btn-ghost">Speak with an Advisor</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num" id="statCount">0</span><span class="stat-label">Active Listings</span></div>
+      <div class="stat"><span class="stat-num">SEA</span><span class="stat-label">Coverage</span></div>
+      <div class="stat"><span class="stat-num">UHNWI</span><span class="stat-label">Client Tier</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FILTER BAR ===== -->
+<section class="filter-bar" id="listings">
+  <div class="filter-inner">
+    <div class="filter-head">
+      <h2>Property Listings</h2>
+      <span class="filter-count" id="resultCount">0 results</span>
+    </div>
+    <div class="filter-controls">
+      <input type="text" id="searchInput" class="filter-input" placeholder="Search by name, location...">
+      <select id="typeFilter" class="filter-select">
+        <option value="">All Types</option>
+        <option value="Resort">Resort</option>
+        <option value="Hotel">Hotel</option>
+        <option value="Branded Residence">Branded Residence</option>
+        <option value="Land Bank">Land Bank</option>
+        <option value="Mixed-Use">Mixed-Use</option>
+      </select>
+      <select id="locationFilter" class="filter-select">
+        <option value="">All Locations</option>
+        <option value="Phuket">Phuket</option>
+        <option value="Koh Samui">Koh Samui</option>
+        <option value="Pattaya">Pattaya</option>
+        <option value="Bangkok">Bangkok</option>
+        <option value="Krabi">Krabi</option>
+      </select>
+      <select id="sortFilter" class="filter-select">
+        <option value="newest">Newest First</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="keys-desc">Keys: High to Low</option>
+      </select>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LISTINGS GRID ===== -->
+<main class="listings-section">
+  <div class="listings-grid" id="listingsGrid">
+    <!-- cards injected by js/script.js -->
+  </div>
+  <p class="empty-state" id="emptyState" hidden>No properties match your filters at this time.</p>
+</main>
+
+<!-- ===== ADD LISTING ===== -->
+<section class="add-listing" id="add-listing">
+  <div class="add-listing-inner">
+    <h2>List a Property</h2>
+    <p class="section-desc">Submit a new asset to the JOE COLLECTION portfolio. Listings are reviewed before publication.</p>
+    <form id="listingForm" class="listing-form">
+      <div class="form-grid">
+        <label>Property Name<input type="text" name="name" required placeholder="e.g. Nora Beach Resort & Spa"></label>
+        <label>Property Type
+          <select name="type" required>
+            <option value="">Select type</option>
+            <option>Resort</option>
+            <option>Hotel</option>
+            <option>Branded Residence</option>
+            <option>Land Bank</option>
+            <option>Mixed-Use</option>
+          </select>
+        </label>
+        <label>Location
+          <select name="location" required>
+            <option value="">Select location</option>
+            <option>Phuket</option>
+            <option>Koh Samui</option>
+            <option>Pattaya</option>
+            <option>Bangkok</option>
+            <option>Krabi</option>
+          </select>
+        </label>
+        <label>Asking Price (THB)<input type="text" name="price" required placeholder="e.g. 1,500,000,000"></label>
+        <label>Number of Keys / Units<input type="number" name="keys" placeholder="e.g. 113"></label>
+        <label>Land Size (Rai)<input type="text" name="land" placeholder="e.g. 17"></label>
+        <label>Tenure
+          <select name="tenure">
+            <option>Freehold</option>
+            <option>Leasehold</option>
+          </select>
+        </label>
+        <label>Image URL<input type="url" name="image" placeholder="https://..."></label>
+        <label>Listing / Detail URL<input type="url" name="url" placeholder="https://..."></label>
+        <label>Map URL (Google Maps link)<input type="url" name="map" placeholder="https://maps.google.com/..."></label>
+        <label class="full-width">Summary<textarea name="summary" rows="3" placeholder="Brief investment highlight..."></textarea></label>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Add Property to Portfolio</button>
+      <p class="form-note">Note: listings added here are stored locally in your browser for preview purposes. To publish permanently, add the entry to <code>data/properties.json</code> in the GitHub repository.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== ABOUT / ADVISORY ===== -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <h2>The Advisory</h2>
+    <p>JOE COLLECTION is a principal-led real estate advisory specializing in hotel and hospitality asset transactions across Southeast Asia. Our practice serves institutional investors and ultra-high-net-worth individuals seeking freehold resort assets, branded residence developments, and strategic land banks throughout Thailand's premier resort markets.</p>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>01 — Market Research</h3>
+        <p>Live intelligence drawn from JLL, Colliers, CBRE, C9 Hotelworks and Knight Frank, benchmarked against comparable transactions across the region.</p>
+      </div>
+      <div class="about-card">
+        <h3>02 — Scenario Modeling</h3>
+        <p>Four-scenario financial structuring — Hold/Stabilise, Rebrand, Branded Residences, and Land Bank — with IRR, MOIC, GOP/NOI and payback analysis.</p>
+      </div>
+      <div class="about-card">
+        <h3>03 — Transaction Execution</h3>
+        <p>End-to-end deal management from introduction through due diligence to closing, with full confidentiality for principal and counterparty.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT / FOOTER ===== -->
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">JC</span>
+      <div>
+        <p class="footer-name">JOE COLLECTION</p>
+        <p class="footer-sub">Premier Real Estate Advisory · Bangkok</p>
+      </div>
+    </div>
+    <div class="footer-contact">
+      <p class="footer-advisor">Monthon Mahakijdumrongnukul</p>
+      <p class="footer-role">Deal Maker &amp; Advisor</p>
+      <a href="tel:+66806578387" class="footer-link">📞 +66 80-657-8387</a>
+      <a href="mailto:joecollection.m@gmail.com" class="footer-link">✉ joecollection.m@gmail.com</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> JOE COLLECTION. All rights reserved. Confidential — for qualified investors only.</p>
+  </div>
+</footer>
+
+<!-- ===== PROPERTY DETAIL MODAL ===== -->
+<div class="modal" id="detailModal" aria-hidden="true">
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="modal-panel" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
