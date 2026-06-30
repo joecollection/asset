@@ -18,6 +18,14 @@
     return "THB " + Number(num).toLocaleString("en-US");
   }
 
+  function buildPropertyLink(id) {
+    const url = new URL(location.href);
+    url.search = "";
+    url.hash = "";
+    url.searchParams.set("property", id);
+    return url.toString();
+  }
+
   function getUserListings() {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
     catch (e) { return []; }
@@ -42,6 +50,15 @@
     filtered = [...allProperties];
     renderSpotlight();
     render();
+    checkDeepLink();
+  }
+
+  function checkDeepLink() {
+    const params = new URLSearchParams(location.search);
+    const id = params.get("property");
+    if (id && allProperties.some((p) => p.id === id)) {
+      openModal(id);
+    }
   }
 
   /* ---------- Spotlight carousel (CBRE-style) ---------- */
@@ -61,12 +78,23 @@
           <div class="pill-row">${pills}</div>
           <div class="spot-cta">
             <button class="btn btn-primary view-detail" data-id="${p.id}">Inquire</button>
-            <button class="share-btn" data-share="${p.name}" aria-label="Share">
+            <button class="share-btn" data-id="${p.id}" data-share="${p.name}" aria-label="Share">
               <svg viewBox="0 0 24 24" width="16" height="16"><circle cx="18" cy="5" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="19" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><line x1="8.6" y1="10.6" x2="15.4" y2="6.4" stroke="currentColor" stroke-width="1.8"/><line x1="8.6" y1="13.4" x2="15.4" y2="17.6" stroke="currentColor" stroke-width="1.8"/></svg>
             </button>
           </div>
         </div>
       </article>`;
+  }
+
+  async function shareProperty(id, name) {
+    const deepLink = buildPropertyLink(id);
+    const text = `${name} — JOE COLLECTION`;
+    if (navigator.share) {
+      try { await navigator.share({ title: name, text, url: deepLink }); } catch (e) {}
+    } else {
+      navigator.clipboard?.writeText(deepLink);
+      alert("Property link copied to clipboard:\n" + deepLink);
+    }
   }
 
   function renderSpotlight() {
@@ -78,15 +106,7 @@
       btn.addEventListener("click", () => openModal(btn.dataset.id))
     );
     carousel.querySelectorAll(".share-btn").forEach((btn) =>
-      btn.addEventListener("click", async () => {
-        const text = `${btn.dataset.share} — JOE COLLECTION`;
-        if (navigator.share) {
-          try { await navigator.share({ title: btn.dataset.share, text, url: location.href }); } catch (e) {}
-        } else {
-          navigator.clipboard?.writeText(location.href);
-          alert("Link copied to clipboard");
-        }
-      })
+      btn.addEventListener("click", () => shareProperty(btn.dataset.id, btn.dataset.share))
     );
 
     let scrollTimeout;
@@ -122,6 +142,7 @@
             <button class="btn btn-primary view-detail" data-id="${p.id}">Details</button>
             <a class="btn btn-icon" title="Property Website" target="_blank" rel="noopener" href="${p.url || "#"}">🌐</a>
             <a class="btn btn-icon" title="View on Map" target="_blank" rel="noopener" href="${p.map || "#"}">📍</a>
+            <button class="btn btn-icon card-share" title="Share this property" data-id="${p.id}" data-share="${p.name}">🔗</button>
           </div>
         </div>
       </article>`;
@@ -139,6 +160,9 @@
     statCount.textContent = allProperties.length;
     grid.querySelectorAll(".view-detail").forEach((btn) =>
       btn.addEventListener("click", () => openModal(btn.dataset.id))
+    );
+    grid.querySelectorAll(".card-share").forEach((btn) =>
+      btn.addEventListener("click", () => shareProperty(btn.dataset.id, btn.dataset.share))
     );
   }
 
