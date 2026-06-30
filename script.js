@@ -225,7 +225,7 @@
           <div class="modal-price">${p.priceLabel || formatTHB(p.price)}</div>
           <p class="modal-summary">${p.summary || ""}</p>
           <div class="modal-actions">
-            <a class="btn btn-primary btn-block" target="_blank" rel="noopener" href="${p.url || "#"}">View Property Analysis</a>
+            <a class="btn btn-primary btn-block" target="_blank" rel="noopener" href="${p.url || "#"}">View Property Website</a>
             <a class="btn btn-block" style="background:var(--bg-alt);color:var(--primary);border:1px solid var(--line);" target="_blank" rel="noopener" href="${p.map || "#"}">View on Map</a>
             <a class="btn btn-block" style="background:var(--gold);color:#fff;" href="mailto:joecollection.m@gmail.com?subject=Inquiry: ${encodeURIComponent(p.name)}">Inquire with Advisor</a>
           </div>
