@@ -9,11 +9,11 @@
     "priceLabel": "THB 1,500,000,000",
     "keys": 113,
     "land": "17 Rai",
-    "gfa": "10,000 sqm",
-    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200&auto=format&fit=crop",
+    "gfa": "15,000 sqm",
+    "image": "https://ak-d.tripcdn.com/images/0583i12000shrb0lu0143_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
     "summary": "113-key freehold beachfront resort with confirmed ADR THB 3,800 and 65% occupancy. Chanote title, prime Koh Samui beachfront position. Four acquisition scenarios modeled: Hold/Stabilise, Rebrand, Branded Residences, and Land Bank.",
-    "url": "#",
-    "map": "https://maps.google.com/?q=Koh+Samui+Thailand"
+    "url": "https://joecollection.github.io/norabeach-samui/",
+    "map": "https://maps.app.goo.gl/NwKLbaRQN8PNtEsLA"
   },
   {
     "id": "radisson-red-phuket",
@@ -24,12 +24,12 @@
     "price": 4000000000,
     "priceLabel": "THB 4,000,000,000",
     "keys": 390,
-    "land": "—",
-    "gfa": "—",
-    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop",
+    "land": "4-2-88 Rai",
+    "gfa": "31,712 sqm",
+    "image": "https://ak-d.tripcdn.com/images/1mc5j12000hb3xlpqD64D_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
     "summary": "390-key freehold hotel in the heart of Patong Beach. Recommended path: Scenario C — Rebrand & Reposition, supported by full four-scenario IRR/MOIC modeling.",
-    "url": "#",
-    "map": "https://maps.google.com/?q=Patong+Beach+Phuket"
+    "url": "https://joecollection.github.io/radisson-red-patong/",
+    "map": "https://maps.app.goo.gl/1phvhYsEYiywdQH76"
   },
   {
     "id": "holiday-inn-surin",
@@ -40,12 +40,12 @@
     "price": 1800000000,
     "priceLabel": "THB 1,800,000,000",
     "keys": 256,
-    "land": "—",
-    "gfa": "—",
-    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+    "land": "9-2-40 Rai",
+    "gfa": "17,530 sqm",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/119366025.jpg?k=fed400aefbc3bd53f6eb891701b40cc5c4f7102e995ea5dbfd2d665e302e0e91&o=",
     "summary": "256-key IHG-franchised freehold resort on Surin Beach. Stable branded operating platform with strong upside on reposition and F&B optimisation.",
-    "url": "#",
-    "map": "https://maps.google.com/?q=Surin+Beach+Phuket"
+    "url": "https://joecollection.github.io/holiday-inn-surin/",
+    "map": "https://maps.app.goo.gl/tbQjPfnyZLmubpmx8"
   },
   {
     "id": "mountain-beach-pattaya",
@@ -56,12 +56,12 @@
     "price": 900000000,
     "priceLabel": "THB 900,000,000",
     "keys": 318,
-    "land": "—",
-    "gfa": "—",
-    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200&auto=format&fit=crop",
+    "land": "5 Rai",
+    "gfa": "19,302 sqm",
+    "image": "https://ak-d.tripcdn.com/images/1mc1v12000d94wlqqE18A_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
     "summary": "318-key freehold resort in Pattaya with multi-scenario value-add strategy. Mixed-use and branded residence conversion potential identified in feasibility study.",
-    "url": "#",
-    "map": "https://maps.google.com/?q=Pattaya+Thailand"
+    "url": "https://joecollection.github.io/mountain-beach/",
+    "map": "https://maps.app.goo.gl/n3FL8jnUQBGpaysW9"
   },
   {
     "id": "chabacabana-samui",
@@ -75,24 +75,24 @@
     "land": "7 Rai",
     "gfa": "6,500 sqm",
     "image": "https://images.unsplash.com/photo-1729808641754-381cc885d73f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "summary": "318-key freehold resort in Pattaya with multi-scenario value-add strategy. Mixed-use and branded residence conversion potential identified in feasibility study.",
+    "summary": "78-key freehold beachfront resort with confirmed ADR THB 3,500 and 67% occupancy. Chanote title, prime Koh Samui beachfront position. Four acquisition scenarios modeled: Hold/Stabilise, Rebrand, Branded Residences, and Land Bank",
     "url": "https://joecollection.github.io/chabacabana-samui/",
     "map": "https://maps.app.goo.gl/pbp1uTxcqX3RGrbd6"
   },
   {
-    "id": "mountain-beach-pattaya",
-    "name": "Mountain Beach Resort Pattaya",
+    "id": "gardencliff-pattaya",
+    "name": "Garden Cliff Resort & Spa Pattaya",
     "type": "Resort",
     "location": "Pattaya",
     "tenure": "Freehold",
-    "price": 900000000,
-    "priceLabel": "THB 900,000,000",
-    "keys": 318,
-    "land": "—",
-    "gfa": "—",
-    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200&auto=format&fit=crop",
-    "summary": "318-key freehold resort in Pattaya with multi-scenario value-add strategy. Mixed-use and branded residence conversion potential identified in feasibility study.",
-    "url": "#",
-    "map": "https://maps.google.com/?q=Pattaya+Thailand"
+    "price": 1700000000,
+    "priceLabel": "THB 1,700,000,000",
+    "keys": 249,
+    "land": "11-1-57 Rai",
+    "gfa": "22,000 sqm",
+    "image": "https://ak-d.tripcdn.com/images/1mc6t12000h908mce8FAD_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
+    "summary": "249-key freehold Beachfront Resort in Wong Amat Beach Pattaya number one location. Mixed-use and branded residence conversion potential identified in feasibility study.",
+    "url": "https://joecollection.github.io/gardencliff-pattaya/",
+    "map": "https://maps.app.goo.gl/MdMqw23yBtd543826"
   }
 ]
