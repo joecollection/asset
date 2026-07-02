@@ -1,4 +1,37 @@
 [
+  
+  {
+    "id": "nora-buri-samui",
+    "name": "Nora Buri Resort & Spa",
+    "type": "Resort",
+    "location": "Koh Samui",
+    "tenure": "Freehold",
+    "price": 2500000000,
+    "priceLabel": "THB 2,500,000,000",
+    "keys": 146,
+    "land": "22 Rai",
+    "gfa": "35,000 sqm",
+    "image": "https://ak-d.tripcdn.com/images/220v0u000000jiybr8669_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
+    "summary":"Beachfront Upper Scale 5 Star Resort 22 Rai of prime Chaweng beachfront — Thailand's most resilient luxury hospitality market, adjacent to Hyatt Regency, offered freehold at a significant discount to replacement cost.",
+    "url": "https://joecollection.github.io/noraburi/",
+    "map": "https://maps.app.goo.gl/G4CUFLNgmw15n8MU6"
+  },
+  {
+    "id": "5starhotel-sukhumvit24",
+    "name": "5 Star Hotel Sukhumvit 24",
+    "type": "Hotel",
+    "location": "Bangkok",
+    "tenure": "Freehold",
+    "price": 2790000000,
+    "priceLabel": "THB 2,790,000,000",
+    "keys": 279,
+    "land": "1.7 Rai",
+    "gfa": "27,000 sqm",
+    "image": "https://ak-d.tripcdn.com/images/1mc3t12000c6nz4jb982C_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
+    "summary":"CBD Upper Scale Freehold · Two-Tower Trophy Asset · 279 Keys Well-Established 5-Star Hotel on CBD Sukhumvit 24, Bangkok. Currently managed by Kingston Hotel Group with strong cash flow and stable long-term returns. Neighbouring prestige brands include Marriott, Hilton Hotel and Resort, and Hyatt Hotel Resort. ",
+    "url": "https://joecollection.github.io/hotel-sukhumvit24/",
+    "map": "https://maps.app.goo.gl/4LB76ZLEWSzjzBMw6"
+  },
   {
     "id": "nora-beach-samui",
     "name": "Nora Beach Resort & Spa",
@@ -14,6 +47,38 @@
     "summary": "113-key freehold beachfront resort with confirmed ADR THB 3,800 and 65% occupancy. Chanote title, prime Koh Samui beachfront position. Four acquisition scenarios modeled: Hold/Stabilise, Rebrand, Branded Residences, and Land Bank.",
     "url": "https://joecollection.github.io/norabeach-samui/",
     "map": "https://maps.app.goo.gl/NwKLbaRQN8PNtEsLA"
+  },
+  {
+    "id": "land4rai-patong",
+    "name": "Land 4 Rai CBD Patong Phuket",
+    "type": "Land Bank",
+    "location": "Phuket",
+    "tenure": "Freehold",
+    "price": 2500000000,
+    "priceLabel": "THB 2,500,000,000",
+    "keys": 855,
+    "land": "4 Rai",
+    "gfa": "33,600 sqm",
+    "image": "images/landpatong-4rai.jpeg",
+    "summary": "A rare 4 Rai or 6,400 sq.m dual-frontage development site in the absolute heart of Patong — Phuket's premier tourist district — offered with immediate income 72 MB/year.The site is ideal for Mixed-use (Retail+Hospitality+High end Condominium or Branded Residences+Entertainment)",
+    "url": "https://joecollection.github.io/landpatong-4rai/",
+    "map": "https://maps.app.goo.gl/zEWQvpKq5XPhHDRf8"
+  },
+  {
+    "id": "holiday-inn-karon",
+    "name": "Holiday Inn Resort Phuket Karon Beach",
+    "type": "Resort",
+    "location": "Phuket",
+    "tenure": "Freehold",
+    "price": 1800000000,
+    "priceLabel": "THB 1,800,000,000",
+    "keys": 224,
+    "land": "11.5 Rai",
+    "gfa": "20,090 sqm",
+    "image": "https://ak-d.tripcdn.com/images/1mc1z12000snj3kbq417B_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
+    "summary": "Well-Established 4-Star Resort on Karon Beach Phuket. Currently managed by Destination Hospitality Management Co., Ltd. with strong cash flow and stable long-term returns. Neighbouring prestige brands include Centara Grand Phuket, Le Meridien Resort, and Karon Beach Hotel.",
+    "url": "https://joecollection.github.io/holiday-inn-karon/",
+    "map": "https://maps.app.goo.gl/BZ5Tj4SkXhRRqiSh8"
   },
   {
     "id": "radisson-red-phuket",
