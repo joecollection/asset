@@ -241,6 +241,22 @@
     "map": "https://maps.app.goo.gl/d7euxJXXY6ZPHQZa8"
   },
   {
+    "id": "land7rai-pattaya",
+    "name": "Land 7 Rai Pattaya",
+    "type": "Land Bank",
+    "location": "Pattaya",
+    "tenure": "Freehold",
+    "price": 690000000,
+    "priceLabel": "THB 690,000,000",
+    "keys": 1000,
+    "land": "7 Rai",
+    "gfa": "112,000 sqm",
+    "image": "images/pattaya-7rai.jpeg",
+    "summary": "A rare 7-Rai contiguous, freehold, arterial-frontage assemblage on Pattaya's next high-rise corridor — priced within reach of its own residual land value even before the monorail breaks ground.",
+    "url": "https://joecollection.github.io/land7rai-pattaya/",
+    "map": "https://maps.app.goo.gl/6EbwsD9wPFWViykc9"
+  },
+  {
     "id": "land4rai-thonglo",
     "name": "Land 4 Rai CBD Sukhumvit 55",
     "type": "Land Bank",
