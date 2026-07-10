@@ -273,6 +273,22 @@
     "map": "https://maps.app.goo.gl/pZymr7Uk58dMnZkY7"
   },
   {
+    "id": "thegighotel-patong",
+    "name": "The Gig Hotel Patong",
+    "type": "Hotel",
+    "location": "Phuket",
+    "tenure": "Freehold",
+    "price": 750000000,
+    "priceLabel": "THB 750,000,000",
+    "keys": 125,
+    "land": "0-3-13 Rai",
+    "gfa": "9,600 sqm",
+    "image": "https://ak-d.tripcdn.com/images/1mc1f12000cryn2z0A01B_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
+    "summary": "A 125-key freehold independent hotel on a compact, irreplaceable Special Commercial Zone parcel in the heart of Patong — recently renovated, trading steadily, and priced on land value more than on today's NOI.",
+    "url": "https://joecollection.github.io/thegig-hotel/",
+    "map": "https://maps.app.goo.gl/CfS4cVSPfg1Homwi6"
+  },
+  {
     "id": "lemarochotel-patong",
     "name": "Le Maroc Hotel Patong",
     "type": "Hotel",
