@@ -351,5 +351,21 @@
     "summary": "Land 4 Rai FAR:8 The last prime development site in Ultra Luxury CBD. Mixed-use and branded residence conversion potential identified in feasibility study.",
     "url": "https://joecollection.github.io/landsukhumvit55-4rai/",
     "map": "https://maps.app.goo.gl/PZYFbrdc1rB4SMsU7"
+  },
+  {
+    "id": "cozyresort-pattaya",
+    "name": "Cozy Resort Pattaya",
+    "type": "Resort",
+    "location": "Pattaya",
+    "tenure": "Freehold",
+    "price": 120000000,
+    "priceLabel": "THB 120,000,000",
+    "keys": 62,
+    "land": "1.11 Rai",
+    "gfa": "3,500 sqm",
+    "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/401727681.jpg?k=e0cc8ee24bafc9e82ff2002338eb73690fa45072070aa24fa82a26f0344ad20a&o=&s=1024x",
+    "summary": "Freehold 62-key boutique hotel in Nong Prue, Pattaya, trading at ฿1,079 RevPAR — offered at ฿120M with an already-permitted 14-room rooftop expansion in hand, a de-risked path to 76 keys without further planning approval.",
+    "url": "https://joecollection.github.io/cozyresort-pattaya/",
+    "map": "https://maps.app.goo.gl/tFaF2CQ6huXTheh38"
   }
 ]
