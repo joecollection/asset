@@ -367,5 +367,21 @@
     "summary": "Freehold 62-key boutique hotel in Nong Prue, Pattaya, trading at ฿1,079 RevPAR — offered at ฿120M with an already-permitted 14-room rooftop expansion in hand, a de-risked path to 76 keys without further planning approval.",
     "url": "https://joecollection.github.io/cozyresort-pattaya/",
     "map": "https://maps.app.goo.gl/MQ2JkrKjAzGm55Zv9"
+  },
+  {
+    "id": "journeyhub-pattaya",
+    "name": "Journeyhub Pattaya Central",
+    "type": "Hotel",
+    "location": "Pattaya",
+    "tenure": "Freehold",
+    "price": 210000000,
+    "priceLabel": "THB 210,000,000",
+    "keys": 76,
+    "land": "0.5 Rai",
+    "gfa": "3,650 sqm",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRTt_yTJztASL6UVYYyRV-B-bisC-aMx-A9TNE2jyJyt2vKTqpX7ENGHT7z-6cpXzTzzBA4o2MC2rgftsUSRoJzK1xn25SfjoJTEkgpRg1gCVuRFnpWD6qu0KBigVeENIw9sjfmYw_N0Kf=s1360-w1360-h1020-rw",
+    "summary": "A 76-key freehold independent midscale hotel on 197 Wah² in the heart of Soi Buakhaow, Pattaya — already delivering a potential 76% occupancy at ฿1,500 ADR with no brand support and no renovation since 2019, priced an estimated 38% below corrected replacement cost, with a fully unexploited value-add cycle and an evidenced path to international brand conversion.",
+    "url": "https://joecollection.github.io/journeyhub-pattaya/",
+    "map": "https://maps.app.goo.gl/ZMW4HXAAwyzBZLTD9"
   }
-]
+  ]
