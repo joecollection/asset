@@ -383,5 +383,21 @@
     "summary": "A 76-key freehold independent midscale hotel on 197 Wah² in the heart of Soi Buakhaow, Pattaya — already delivering a potential 76% occupancy at ฿1,500 ADR with no brand support and no renovation since 2019, priced an estimated 38% below corrected replacement cost, with a fully unexploited value-add cycle and an evidenced path to international brand conversion.",
     "url": "https://joecollection.github.io/journeyhub-pattaya/",
     "map": "https://maps.app.goo.gl/ZMW4HXAAwyzBZLTD9"
+  },
+  {
+    "id": "nimmanmai-hotel",
+    "name": "Nimman Mai Design Hotel",
+    "type": "Hotel",
+    "location": "Chiang Mai",
+    "tenure": "Freehold",
+    "price": 180000000,
+    "priceLabel": "THB 180,000,000",
+    "keys": 56,
+    "land": "0.3025 Rai",
+    "gfa": "2,430.5 sqm",
+    "image": "https://ak-d.tripcdn.com/images/1mc4n12000bvwszcp7371_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
+    "summary": "A freehold, 56-key independent boutique hotel on a 484 sqm parcel with direct Nimmanhaemin Road frontage, fully renovated and relaunched in March 2022. Owner-operated with an on-site restaurant and a solid 4.0/5 TripAdvisor score across 432 reviews.",
+    "url": "https://joecollection.github.io/nimmanmai-hotel/",
+    "map": "https://maps.app.goo.gl/Z3PdQd6Miz7G5SjS7"
   }
   ]
