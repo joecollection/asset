@@ -107,7 +107,7 @@
     "keys": 256,
     "land": "9-2-40 Rai",
     "gfa": "17,530 sqm",
-    "image": "images/holidayinn-surin.jpeg",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/119366025.jpg?k=fed400aefbc3bd53f6eb891701b40cc5c4f7102e995ea5dbfd2d665e302e0e91&o=",
     "summary": "256-key IHG-franchised freehold resort on Surin Beach. Stable branded operating platform with strong upside on reposition and F&B optimisation.",
     "url": "https://joecollection.github.io/holiday-inn-surin/",
     "map": "https://maps.app.goo.gl/tbQjPfnyZLmubpmx8"
@@ -273,22 +273,6 @@
     "map": "https://maps.app.goo.gl/pZymr7Uk58dMnZkY7"
   },
   {
-    "id": "thegighotel-patong",
-    "name": "The Gig Hotel Patong",
-    "type": "Hotel",
-    "location": "Phuket",
-    "tenure": "Freehold",
-    "price": 750000000,
-    "priceLabel": "THB 750,000,000",
-    "keys": 125,
-    "land": "0-3-13 Rai",
-    "gfa": "9,600 sqm",
-    "image": "https://ak-d.tripcdn.com/images/1mc1f12000cryn2z0A01B_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
-    "summary": "A 125-key freehold independent hotel on a compact, irreplaceable Special Commercial Zone parcel in the heart of Patong — recently renovated, trading steadily, and priced on land value more than on today's NOI.",
-    "url": "https://joecollection.github.io/thegig-hotel/",
-    "map": "https://maps.app.goo.gl/CfS4cVSPfg1Homwi6"
-  },
-  {
     "id": "lemarochotel-patong",
     "name": "Le Maroc Hotel Patong",
     "type": "Hotel",
@@ -303,6 +287,22 @@
     "summary": "A prime beach road stylish 21-Room Boutique Hotel in the heart of Patong Phuket",
     "url": "https://joecollection.github.io/le-maroc-patong/",
     "map": "https://maps.app.goo.gl/bM6RuHKJv2rZBxkG9"
+  },
+   {
+    "id": "thegighotel-patong",
+    "name": "The Gig Hotel Patong",
+    "type": "Hotel",
+    "location": "Phuket",
+    "tenure": "Freehold",
+    "price": 750000000,
+    "priceLabel": "THB 750,000,000",
+    "keys": 125,
+    "land": "0-3-13 Rai",
+    "gfa": "9,600 sqm",
+    "image": "https://ak-d.tripcdn.com/images/1mc1f12000cryn2z0A01B_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F",
+    "summary": "A 125-key freehold independent hotel on a compact, irreplaceable Special Commercial Zone parcel in the heart of Patong — recently renovated, trading steadily, and priced on land value more than on today's NOI.",
+    "url": "https://joecollection.github.io/thegig-hotel/",
+    "map": "https://maps.app.goo.gl/CfS4cVSPfg1Homwi6"
   },
   {
     "id": "land-kamala-phuket-3260rai",
@@ -320,7 +320,7 @@
     "url": "https://joecollection.github.io/land-kamala-patong-3-rai/",
     "map": "https://maps.app.goo.gl/d7euxJXXY6ZPHQZa8"
   },
-  {
+   {
     "id": "land7rai-pattaya",
     "name": "Land 7 Rai Pattaya",
     "type": "Land Bank",
@@ -332,7 +332,7 @@
     "land": "7 Rai",
     "gfa": "112,000 sqm",
     "image": "images/pattaya-7rai.jpeg",
-    "summary": "A rare 7-Rai contiguous ,Next to Pattaya's Tallest Tower 67-storey Grand Solaire Pattaya and the planned Thap Phraya monorail terminal, freehold, arterial-frontage assemblage on Pattaya's next high-rise corridor — priced within reach of its own residual land value even before the monorail breaks ground.",
+    "summary": "A rare 7-Rai contiguous, freehold, arterial-frontage assemblage on Pattaya's next high-rise corridor — priced within reach of its own residual land value even before the monorail breaks ground.",
     "url": "https://joecollection.github.io/land7rai-pattaya/",
     "map": "https://maps.app.goo.gl/6EbwsD9wPFWViykc9"
   },
@@ -366,7 +366,7 @@
     "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/401727681.jpg?k=e0cc8ee24bafc9e82ff2002338eb73690fa45072070aa24fa82a26f0344ad20a&o=&s=1024x",
     "summary": "Freehold 62-key boutique hotel in Nong Prue, Pattaya, trading at ฿1,079 RevPAR — offered at ฿120M with an already-permitted 14-room rooftop expansion in hand, a de-risked path to 76 keys without further planning approval.",
     "url": "https://joecollection.github.io/cozyresort-pattaya/",
-    "map": "https://maps.app.goo.gl/MQ2JkrKjAzGm55Zv9"
+    "map": "https://maps.app.goo.gl/tFaF2CQ6huXTheh38"
   },
   {
     "id": "journeyhub-pattaya",
@@ -399,5 +399,53 @@
     "summary": "A freehold, 56-key independent boutique hotel on a 484 sqm parcel with direct Nimmanhaemin Road frontage, fully renovated and relaunched in March 2022. Owner-operated with an on-site restaurant and a solid 4.0/5 TripAdvisor score across 432 reviews.",
     "url": "https://joecollection.github.io/nimmanmai-hotel/",
     "map": "https://maps.app.goo.gl/Z3PdQd6Miz7G5SjS7"
+  },
+  {
+    "id": "lannapalace-hotel",
+    "name": "Lanna Palace 2004 Hotel",
+    "type": "Hotel",
+    "location": "Chiang Mai",
+    "tenure": "Freehold",
+    "price": 700000000,
+    "priceLabel": "THB 700,000,000",
+    "keys": 205,
+    "land": "2.45 Rai",
+    "gfa": "3,920 sqm",
+    "image": "images/lanna-palace.jpeg",
+    "summary": "A 14-storey, 205-key freehold hotel on 3,920 sqm of Chanote land directly on Changklan Road — one of the largest single freehold commercial holdings remaining on this frontage. Currently trading at ฿1,700 ADR / 67% occupancy, with the physical building intact and overdue for renovation.",
+    "url": "https://joecollection.github.io/lanna-palace/",
+    "map": "https://maps.app.goo.gl/bDML3PnyUFcQ8C1M7"
+  },
+  {
+    "id": "land62rai-chiangmai",
+    "name": "Land 62 Rai Superhighway Chiangmai",
+    "type": "Land Bank",
+    "location": "Chiang Mai",
+    "tenure": "Freehold",
+    "price": 5000000000,
+    "priceLabel": "THB 5,000,000,000",
+    "keys": 900,
+    "land": "62 Rai",
+    "gfa": "496,000 sqm",
+    "image": "images/chiangmai-62rai.jpeg",
+    "summary": "62 contiguous freehold Rai on a six-lane national highway, trading in this corridor at ฿32M–72M/Rai — priced at the confident top of a confirmed, strengthening market.",
+    "url": "https://joecollection.github.io/chiangmai-62rai/",
+    "map": "https://maps.app.goo.gl/NPHhRHzCXpDXfV3T8"
+  },
+  {
+    "id": "land1rai-nimman-chiangmai",
+    "name": "Land 1-0-89 Rai Nimman Chiang Mai",
+    "type": "Land Bank",
+    "location": "Chiang Mai",
+    "tenure": "Freehold",
+    "price": 220000000,
+    "priceLabel": "THB 220,000,000",
+    "keys": 130,
+    "land": "1.22 Rai",
+    "gfa": "5,868 sqm",
+    "image": "images/nimman-1956.jpeg",
+    "summary": "1,956 sqm of dual-frontage freehold on Nimmanhaemin Road, priced at ฿449,897/Wah² — almost exactly the midpoint of three confirmed transactions on this exact street",
+    "url": "https://joecollection.github.io/land-nimman-chiangmai-1956sqm/",
+    "map": "https://maps.app.goo.gl/XNqtsZmvUgr43cwa7"
   }
-  ]
+]
