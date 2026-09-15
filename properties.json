@@ -479,5 +479,53 @@
     "summary": "A 16-2-9 Rai (26,436 sqm) freehold Chanote assemblage on a 64-metre Chang Phueak Road frontage, sitting directly beside Supalai Park Ville and the 7-Storey Casa Condominium. Zoned Orange Yor 6-1 with FAR 5:1, entitled for up to 132,180 sqm of buildable area.",
     "url": "https://joecollection.github.io/land16rai-chiangmai/",
     "map": "https://maps.app.goo.gl/vqxCZEJbKKmzjbrGA"
+  },
+  {
+    "id": "novotelcm-hotel",
+    "name": "Novotel Chiang Mai Nimman Journeyhub",
+    "type": "Hotel",
+    "location": "Chiang Mai",
+    "tenure": "Freehold",
+    "price": 900000000,
+    "priceLabel": "THB 900,000,000",
+    "keys": 202,
+    "land": "2.12 Rai",
+    "gfa": "8,000 sqm",
+    "image": "images/novotel-cm.jpeg",
+    "summary": "The 4 star Novotel Chiang Mai Nimman JourneyHub is located at the heart of Chiang Mai, only 500 meters from MAYA Lifestyle Shopping Mall and MAYA theatres. It offers breathtaking views an outdoor pool, bar brand new guest rooms, restaurant featuring Thai and International cuisine, fitness center, gourmet bar and meeting facilities for up to 250 guests. Perfect for leisure and business travelers.",
+    "url": "https://all.accor.com/hotel/B4F8/index.en.shtml?utm_term=mar&gclid=CjwKCAjw2aPVBhBkEiwA0CpttzuEfIG_ij3SewJtykabd7p94E0PHL5YG3ZoEZvi4J4mfizCWASGWBoCHsgQAvD_BwE&utm_campaign=ppc-nov-mar-goo-th-en-th-bmm-sear-th&utm_medium=cpc&wiz_campaign=780700471&utm_content=th-en-TH-V5058&utm_source=google",
+    "map": "https://maps.app.goo.gl/hUx2quMcaAWpWfxVA"
+  },
+  {
+    "id": "ibiscm-hotel",
+    "name": "ibis Chiang Mai Nimman Journeyhub",
+    "type": "Hotel",
+    "location": "Chiang Mai",
+    "tenure": "Freehold",
+    "price": 470000000,
+    "priceLabel": "THB 470,000,000",
+    "keys": 142,
+    "land": "1.15 Rai",
+    "gfa": "4,000 sqm",
+    "image": "images/ibis-cm.jpeg",
+    "summary": "ibis Chiang Mai Nimman Journeyhub is perfectly located at the foothills of Doi Suthep, in the trendy Nimman area where guests can discover nightlife, walking street and shopping for local handicrafts within walking distance and near Chiang Mai University. With contemporary design, hotel has 142 guest rooms with free high-speed Wi-Fi, 24 hours dining serving a range of international favorites, a musical ambiance BAR to unwind, an Open-air swimming pool overlooking the hills and a 24-hour gym.",
+    "url": "https://all.accor.com/hotel/B9U9/index.en.shtml?utm_term=mar&gclid=CjwKCAjw2aPVBhBkEiwA0Cptt60Q_iTbcVPdhuCUhk08RlsdclOWIOnJp1rgD2VbE7IdvFs5BxkVqBoC4q4QAvD_BwE&utm_campaign=ppc-ibi-mar-goo-th-en-th-exa-sear-th&utm_medium=cpc&wiz_campaign=778820373&utm_content=th-en-TH-V5058&utm_source=google",
+    "map": "https://maps.app.goo.gl/LFf8twNUS9H7LvzJ8"
+  },
+  {
+    "id": "mercurephuket-hotel",
+    "name": "Mercure Phuket Patong Journeyhub",
+    "type": "Hotel",
+    "location": "Phuket",
+    "tenure": "Freehold",
+    "price": 830000000,
+    "priceLabel": "THB 830,000,000",
+    "keys": 198,
+    "land": "1.3 Rai",
+    "gfa": "7,000 sqm",
+    "image": "images/mercure-phuket.jpeg",
+    "summary": "Nestled above Patong, we blend genuine hospitality with relaxed island comfort. Unwind at our rooftop infinity pool with panoramic mountain views and sunset cocktails while enjoying easy access to beach, nightlife, shopping, and local attractions. Pet-friendly and Green Key certified, the hotel also offers a complimentary beach shuttle three times daily. Your perfect base for exploring Phuket.",
+    "url": "https://all.accor.com/hotel/C543/index.en.shtml?utm_term=mar&gclid=CjwKCAjw2aPVBhBkEiwA0Cptt46Ovm7gNRtLIA5M4wlaqmQKWQBb2gzUBH48IDspZOii4rR5E23uRxoCE44QAvD_BwE&utm_campaign=ppc-mer-mar-goo-th-en-th-exa-sear-th&utm_medium=cpc&wiz_campaign=776375892&utm_content=th-en-TH-V7424&utm_source=google",
+    "map": "https://maps.app.goo.gl/HTEgc9Tp9EBXAi4Y6"
   }
 ]
