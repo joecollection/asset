@@ -528,7 +528,7 @@
     "url": "https://all.accor.com/hotel/C543/index.en.shtml?utm_term=mar&gclid=CjwKCAjw2aPVBhBkEiwA0Cptt46Ovm7gNRtLIA5M4wlaqmQKWQBb2gzUBH48IDspZOii4rR5E23uRxoCE44QAvD_BwE&utm_campaign=ppc-mer-mar-goo-th-en-th-exa-sear-th&utm_medium=cpc&wiz_campaign=776375892&utm_content=th-en-TH-V7424&utm_source=google",
     "map": "https://maps.app.goo.gl/HTEgc9Tp9EBXAi4Y6"
   },
-   {
+{
     "id": "impiana-resort",
     "name": "Impiana Resort Patong Phuket",
     "type": "Resort",
@@ -540,8 +540,7 @@
     "land": "6.7 Rai",
     "gfa": "10,000 sqm",
     "image": "images/impiana.jpg",
-    "summary": "A Trophy Asset rare acquisition opportunity for a prime hospitality asset in Phuket, We are currently representing the sale of Impiana Resort Patong, a unique beachfront property located in the heart of Patong Beach,
-Unlike many hotels in the area, this resort boasts direct beach frontage, making it a high-value asset with significant scarcity value.",
+    "summary": "Impiana Resort Patong Resort is nestled right in-between the sparkle of Andaman sands and the bustle of Bangla Road. An ever-present lotus flower flourishes as it nourishes the spirit and well-being of those who step inside our beach-front boutique retreat. Whatever your choices may be outside our walls as far as culinary preferences are concerned, our Sala Bua restaurant embodies all that is serene, stylish and sophisticated.",
     "url": "https://www.impiana.com.my/hotel/impiana-resort-patong/",
     "map": "https://maps.app.goo.gl/hV8DcS6JkWusufSz5"
   }
