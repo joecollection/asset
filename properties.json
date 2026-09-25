@@ -400,38 +400,7 @@
     "url": "https://joecollection.github.io/nimmanmai-hotel/",
     "map": "https://maps.app.goo.gl/Z3PdQd6Miz7G5SjS7"
   },
-  {
-    "id": "lannapalace-hotel",
-    "name": "Lanna Palace 2004 Hotel",
-    "type": "Hotel",
-    "location": "Chiang Mai",
-    "tenure": "Freehold",
-    "price": 560000000,
-    "priceLabel": "THB 560,000,000",
-    "keys": 205,
-    "land": "2.45 Rai",
-    "gfa": "3,920 sqm",
-    "image": "images/lanna-palace.jpeg",
-    "summary": "A 14-storey, 205-key freehold hotel on 3,920 sqm of Chanote land directly on Changklan Road — one of the largest single freehold commercial holdings remaining on this frontage. Currently trading at ฿1,700 ADR / 67% occupancy, with the physical building intact and overdue for renovation.",
-    "url": "https://joecollection.github.io/lanna-palace/",
-    "map": "https://maps.app.goo.gl/bDML3PnyUFcQ8C1M7"
-  },
-  {
-    "id": "land62rai-chiangmai",
-    "name": "Land 62 Rai Superhighway Chiangmai",
-    "type": "Land Bank",
-    "location": "Chiang Mai",
-    "tenure": "Freehold",
-    "price": 5000000000,
-    "priceLabel": "THB 5,000,000,000",
-    "keys": 900,
-    "land": "62 Rai",
-    "gfa": "496,000 sqm",
-    "image": "images/chiangmai-62rai.jpeg",
-    "summary": "62 contiguous freehold Rai on a six-lane national highway, trading in this corridor at ฿32M–72M/Rai — priced at the confident top of a confirmed, strengthening market.",
-    "url": "https://joecollection.github.io/chiangmai-62rai/",
-    "map": "https://maps.app.goo.gl/NPHhRHzCXpDXfV3T8"
-  },
+
   {
     "id": "land1rai-nimman-chiangmai",
     "name": "Land 1-0-89 Rai Nimman Chiang Mai",
@@ -447,22 +416,6 @@
     "summary": "1,956 sqm of dual-frontage freehold on Nimmanhaemin Road, priced at ฿449,897/Wah² — almost exactly the midpoint of three confirmed transactions on this exact street",
     "url": "https://joecollection.github.io/land-nimman-chiangmai-1956sqm/",
     "map": "https://maps.app.goo.gl/XNqtsZmvUgr43cwa7"
-  },
-   {
-    "id": "land11rai-pingriver-chiangmai",
-    "name": "Land 11-1-49 Rai Ping River Chiang Mai",
-    "type": "Land Bank",
-    "location": "Chiang Mai",
-    "tenure": "Freehold",
-    "price": 425000000,
-    "priceLabel": "THB 425,000,000",
-    "keys": 200,
-    "land": "11.4 Rai",
-    "gfa": "100,000 sqm",
-    "image": "images/hero.jpg",
-    "summary": "11-1-49 Rai (18,196 Sq.m.) of freehold Chanote land directly on the Ping River, opposite Centara Riverside Hotel Chiang Mai and adjoining the Senior Wellness Center — positioned for a High-End Pool Villa, Branded Residence & Medical Recovery Retreat development.",
-    "url": "https://joecollection.github.io/pingriver-11rai/",
-    "map": "https://maps.app.goo.gl/3TVztC6BW6RwKMSF7"
   },
    {
     "id": "land16rai-chiangmai",
